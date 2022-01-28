@@ -175,14 +175,22 @@ body {
 .service-content {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 50px;
 }
 .service-content h3 {
-  background-color: #fffc;
   color: #0267b4;
-  padding: 10px 15px;
+  font-size: 24px;
+}
+.service-content .head {
+  height: 42px;
+  width: 88px;
+  background-color: #fffc;
+  border-radius: 6px;
   margin-right: 20px;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .virtical {
   border-right: 2px solid #fffc;
