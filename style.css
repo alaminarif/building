@@ -5,14 +5,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* common Style  */
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
-}
-body {
-  font-family: "Poppins", sans-serif;
 }
 img {
   width: 100%;
@@ -33,14 +31,28 @@ img {
   color: #0267b4;
   background-color: transparent;
 }
-/*--------------
-  Header Style 
-  ------------*/
-
 .container {
   width: 80vw;
   margin: 0 auto;
 }
+h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+p {
+  line-height: 1.6;
+}
+/*
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/*--------------
+  Header Style 
+  ------------*/
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -52,9 +64,15 @@ img {
   width: 150px;
   height: 60px;
 }
+.navbar ul a:first-child {
+  background-color: #0267b4;
+  color: #fffc;
+  padding: 9px 20px;
+  border-radius: 4px;
+}
 .navbar ul a {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   color: #0267b4;
   margin-left: 15px;
 }
@@ -87,6 +105,10 @@ img {
   font-size: 48px;
   margin-bottom: 7px;
 }
+.banner-content span {
+  font-weight: 400;
+  font-size: 38px;
+}
 .banner-content p {
   font-size: 22px;
   margin-bottom: 7px;
@@ -94,13 +116,8 @@ img {
 .about-section {
   padding: 50px 0;
 }
-h2 {
-  font-size: 28px;
-  text-align: center;
-  font-weight: 700;
-}
 /*------------------
-  About Style\
+  About Style
   ------------------*/
 .about {
   display: grid;
@@ -117,7 +134,7 @@ h2 {
   border: 3px solid #0267b4;
 }
 .about-item i {
-  font-size: 50px;
+  font-size: 60px;
   margin-top: 30px;
 }
 .about-item p {
@@ -154,10 +171,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 70px;
 }
-.service-left {
-}
-.service-right {
-}
+
 .service-content {
   display: flex;
   justify-content: center;
